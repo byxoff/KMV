@@ -1,0 +1,6 @@
+framework module Pods_kmv_telekom {
+  umbrella header "Pods-kmv-telekom-umbrella.h"
+
+  export *
+  module * { export * }
+}

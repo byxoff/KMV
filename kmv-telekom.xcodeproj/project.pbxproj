@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03008FFA2735400700C7925C /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008FF92735400700C7925C /* Payment.swift */; };
+		03008FFC2735423800C7925C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008FFB2735423800C7925C /* Settings.swift */; };
+		03024F6D271105E200B80E08 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03024F6C271105E200B80E08 /* ChatView.swift */; };
+		03024F6F271105F100B80E08 /* ContentMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03024F6E271105F100B80E08 /* ContentMessageView.swift */; };
+		03024F71271105F500B80E08 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03024F70271105F500B80E08 /* MessageView.swift */; };
+		03024F732711063300B80E08 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03024F722711063300B80E08 /* Message.swift */; };
+		03024F752711063800B80E08 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03024F742711063800B80E08 /* User.swift */; };
+		03024F772711064B00B80E08 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03024F762711064B00B80E08 /* ViewExtension.swift */; };
+		03024F792711065A00B80E08 /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03024F782711065A00B80E08 /* KeyboardResponder.swift */; };
+		03024F7B2711065D00B80E08 /* ChatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03024F7A2711065D00B80E08 /* ChatHelper.swift */; };
+		03024F812711087500B80E08 /* kmv_telekomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03024F802711087500B80E08 /* kmv_telekomApp.swift */; };
+		03C62B9F2735703D00DD96FA /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C62B9E2735703C00DD96FA /* Support.swift */; };
+		03C62BA12735791200DD96FA /* application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C62BA02735791200DD96FA /* application.swift */; };
+		03C62BA3273581CF00DD96FA /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C62BA2273581CF00DD96FA /* Requests.swift */; };
+		161E88C7932DB9FF27BB8C8E /* Pods_kmv_telekomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3DFB73A9D6285FEFD0F7F3 /* Pods_kmv_telekomTests.framework */; };
+		274DCA6C26B0207A00537D7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274DCA6B26B0207A00537D7B /* ContentView.swift */; };
+		274DCA6E26B0207B00537D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274DCA6D26B0207B00537D7B /* Assets.xcassets */; };
+		274DCA7126B0207B00537D7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274DCA7026B0207B00537D7B /* Preview Assets.xcassets */; };
+		274DCA7C26B0207B00537D7B /* kmv_telekomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274DCA7B26B0207B00537D7B /* kmv_telekomTests.swift */; };
+		274DCA8726B0207B00537D7B /* kmv_telekomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274DCA8626B0207B00537D7B /* kmv_telekomUITests.swift */; };
+		274DCA9526B0237B00537D7B /* first.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274DCA9426B0237B00537D7B /* first.swift */; };
+		27D642CD26B40BBB0041B66A /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D642CC26B40BBB0041B66A /* loginPage.swift */; };
+		77553E3CA7202296CD8A4EF1 /* Pods_kmv_telekom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8C5B04E56CF85B1D0FE046 /* Pods_kmv_telekom.framework */; };
+		8474044526EB246F0082D826 /* services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8474044426EB246F0082D826 /* services.swift */; };
+		8474044726EB3C7B0082D826 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8474044626EB3C7B0082D826 /* Phone.swift */; };
+		848B3C2426ECCB0400190168 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848B3C2326ECCB0400190168 /* ProgressBar.swift */; };
+		84BEA68526E9B7B500564842 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEA68426E9B7B400564842 /* Buttons.swift */; };
+		84BEA68826E9CF5400564842 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEA68726E9CF5400564842 /* Cards.swift */; };
+		887145462A8086C507728771 /* Pods_kmv_telekom_kmv_telekomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B3975FEBC657DD30FC9023 /* Pods_kmv_telekom_kmv_telekomUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		274DCA7826B0207B00537D7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274DCA5E26B0207900537D7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274DCA6526B0207A00537D7B;
+			remoteInfo = "kmv-telekom";
+		};
+		274DCA8326B0207B00537D7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274DCA5E26B0207900537D7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274DCA6526B0207A00537D7B;
+			remoteInfo = "kmv-telekom";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03008FF92735400700C7925C /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		03008FFB2735423800C7925C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		03024F6C271105E200B80E08 /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		03024F6E271105F100B80E08 /* ContentMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentMessageView.swift; sourceTree = "<group>"; };
+		03024F70271105F500B80E08 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		03024F722711063300B80E08 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		03024F742711063800B80E08 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		03024F762711064B00B80E08 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		03024F782711065A00B80E08 /* KeyboardResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
+		03024F7A2711065D00B80E08 /* ChatHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatHelper.swift; sourceTree = "<group>"; };
+		03024F802711087500B80E08 /* kmv_telekomApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kmv_telekomApp.swift; sourceTree = "<group>"; };
+		03C62B9E2735703C00DD96FA /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		03C62BA02735791200DD96FA /* application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = application.swift; sourceTree = "<group>"; };
+		03C62BA2273581CF00DD96FA /* Requests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		0857BC6FF6B1DF4F32DD9CF2 /* Pods-kmv-telekom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kmv-telekom.release.xcconfig"; path = "Target Support Files/Pods-kmv-telekom/Pods-kmv-telekom.release.xcconfig"; sourceTree = "<group>"; };
+		0B3DFB73A9D6285FEFD0F7F3 /* Pods_kmv_telekomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kmv_telekomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3F4F09A35F4BDA631CD442 /* Pods-kmv-telekom-kmv-telekomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kmv-telekom-kmv-telekomUITests.debug.xcconfig"; path = "Target Support Files/Pods-kmv-telekom-kmv-telekomUITests/Pods-kmv-telekom-kmv-telekomUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		274DCA6626B0207A00537D7B /* kmv-telekom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kmv-telekom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274DCA6B26B0207A00537D7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		274DCA6D26B0207B00537D7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		274DCA7026B0207B00537D7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		274DCA7226B0207B00537D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274DCA7726B0207B00537D7B /* kmv-telekomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kmv-telekomTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274DCA7B26B0207B00537D7B /* kmv_telekomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kmv_telekomTests.swift; sourceTree = "<group>"; };
+		274DCA7D26B0207B00537D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274DCA8226B0207B00537D7B /* kmv-telekomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kmv-telekomUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274DCA8626B0207B00537D7B /* kmv_telekomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kmv_telekomUITests.swift; sourceTree = "<group>"; };
+		274DCA8826B0207B00537D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274DCA9426B0237B00537D7B /* first.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first.swift; sourceTree = "<group>"; };
+		27D642CC26B40BBB0041B66A /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
+		8474044426EB246F0082D826 /* services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = services.swift; sourceTree = "<group>"; };
+		8474044626EB3C7B0082D826 /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		848B3C2326ECCB0400190168 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		84BEA68426E9B7B400564842 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		84BEA68726E9CF5400564842 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		95B3975FEBC657DD30FC9023 /* Pods_kmv_telekom_kmv_telekomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kmv_telekom_kmv_telekomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17A92626F848EB88E5DCEE4 /* Pods-kmv-telekomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kmv-telekomTests.release.xcconfig"; path = "Target Support Files/Pods-kmv-telekomTests/Pods-kmv-telekomTests.release.xcconfig"; sourceTree = "<group>"; };
+		D651B74C72ADF24D78E10E60 /* Pods-kmv-telekomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kmv-telekomTests.debug.xcconfig"; path = "Target Support Files/Pods-kmv-telekomTests/Pods-kmv-telekomTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E587A6A6CBF3CAC5FB4BFEED /* Pods-kmv-telekom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kmv-telekom.debug.xcconfig"; path = "Target Support Files/Pods-kmv-telekom/Pods-kmv-telekom.debug.xcconfig"; sourceTree = "<group>"; };
+		E8928740E71E54DE6EFC9829 /* Pods-kmv-telekom-kmv-telekomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kmv-telekom-kmv-telekomUITests.release.xcconfig"; path = "Target Support Files/Pods-kmv-telekom-kmv-telekomUITests/Pods-kmv-telekom-kmv-telekomUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB8C5B04E56CF85B1D0FE046 /* Pods_kmv_telekom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kmv_telekom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		274DCA6326B0207A00537D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77553E3CA7202296CD8A4EF1 /* Pods_kmv_telekom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274DCA7426B0207B00537D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161E88C7932DB9FF27BB8C8E /* Pods_kmv_telekomTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274DCA7F26B0207B00537D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887145462A8086C507728771 /* Pods_kmv_telekom_kmv_telekomUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		274DCA5D26B0207900537D7B = {
+			isa = PBXGroup;
+			children = (
+				274DCA6826B0207A00537D7B /* kmv-telekom */,
+				274DCA7A26B0207B00537D7B /* kmv-telekomTests */,
+				274DCA8526B0207B00537D7B /* kmv-telekomUITests */,
+				274DCA6726B0207A00537D7B /* Products */,
+				3B0E66C228E7484624AEB44A /* Pods */,
+				3C7F78E1C36AB1086027AE5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		274DCA6726B0207A00537D7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				274DCA6626B0207A00537D7B /* kmv-telekom.app */,
+				274DCA7726B0207B00537D7B /* kmv-telekomTests.xctest */,
+				274DCA8226B0207B00537D7B /* kmv-telekomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		274DCA6826B0207A00537D7B /* kmv-telekom */ = {
+			isa = PBXGroup;
+			children = (
+				03024F802711087500B80E08 /* kmv_telekomApp.swift */,
+				03024F70271105F500B80E08 /* MessageView.swift */,
+				84BEA68226E9B75500564842 /* Assets */,
+				03024F722711063300B80E08 /* Message.swift */,
+				03024F7A2711065D00B80E08 /* ChatHelper.swift */,
+				03024F782711065A00B80E08 /* KeyboardResponder.swift */,
+				03024F762711064B00B80E08 /* ViewExtension.swift */,
+				03024F742711063800B80E08 /* User.swift */,
+				03C62BA2273581CF00DD96FA /* Requests.swift */,
+				03024F6E271105F100B80E08 /* ContentMessageView.swift */,
+				03024F6C271105E200B80E08 /* ChatView.swift */,
+				274DCA6B26B0207A00537D7B /* ContentView.swift */,
+				27D642CC26B40BBB0041B66A /* loginPage.swift */,
+				274DCA6D26B0207B00537D7B /* Assets.xcassets */,
+				274DCA7226B0207B00537D7B /* Info.plist */,
+				274DCA6F26B0207B00537D7B /* Preview Content */,
+				274DCA9426B0237B00537D7B /* first.swift */,
+				03008FF92735400700C7925C /* Payment.swift */,
+				03008FFB2735423800C7925C /* Settings.swift */,
+				03C62B9E2735703C00DD96FA /* Support.swift */,
+				03C62BA02735791200DD96FA /* application.swift */,
+			);
+			path = "kmv-telekom";
+			sourceTree = "<group>";
+		};
+		274DCA6F26B0207B00537D7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				274DCA7026B0207B00537D7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		274DCA7A26B0207B00537D7B /* kmv-telekomTests */ = {
+			isa = PBXGroup;
+			children = (
+				274DCA7B26B0207B00537D7B /* kmv_telekomTests.swift */,
+				274DCA7D26B0207B00537D7B /* Info.plist */,
+			);
+			path = "kmv-telekomTests";
+			sourceTree = "<group>";
+		};
+		274DCA8526B0207B00537D7B /* kmv-telekomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				274DCA8626B0207B00537D7B /* kmv_telekomUITests.swift */,
+				274DCA8826B0207B00537D7B /* Info.plist */,
+			);
+			path = "kmv-telekomUITests";
+			sourceTree = "<group>";
+		};
+		3B0E66C228E7484624AEB44A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E587A6A6CBF3CAC5FB4BFEED /* Pods-kmv-telekom.debug.xcconfig */,
+				0857BC6FF6B1DF4F32DD9CF2 /* Pods-kmv-telekom.release.xcconfig */,
+				1A3F4F09A35F4BDA631CD442 /* Pods-kmv-telekom-kmv-telekomUITests.debug.xcconfig */,
+				E8928740E71E54DE6EFC9829 /* Pods-kmv-telekom-kmv-telekomUITests.release.xcconfig */,
+				D651B74C72ADF24D78E10E60 /* Pods-kmv-telekomTests.debug.xcconfig */,
+				C17A92626F848EB88E5DCEE4 /* Pods-kmv-telekomTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3C7F78E1C36AB1086027AE5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C5B04E56CF85B1D0FE046 /* Pods_kmv_telekom.framework */,
+				95B3975FEBC657DD30FC9023 /* Pods_kmv_telekom_kmv_telekomUITests.framework */,
+				0B3DFB73A9D6285FEFD0F7F3 /* Pods_kmv_telekomTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		848B3C2226ECCAD100190168 /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				848B3C2326ECCB0400190168 /* ProgressBar.swift */,
+			);
+			path = ProgressBar;
+			sourceTree = "<group>";
+		};
+		84BEA68226E9B75500564842 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				848B3C2226ECCAD100190168 /* ProgressBar */,
+				84BEA68626E9CF3800564842 /* Cards */,
+				84BEA68326E9B77100564842 /* Buttons */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		84BEA68326E9B77100564842 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				84BEA68426E9B7B400564842 /* Buttons.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		84BEA68626E9CF3800564842 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				84BEA68726E9CF5400564842 /* Cards.swift */,
+				8474044426EB246F0082D826 /* services.swift */,
+				8474044626EB3C7B0082D826 /* Phone.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		274DCA6526B0207A00537D7B /* kmv-telekom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274DCA8B26B0207B00537D7B /* Build configuration list for PBXNativeTarget "kmv-telekom" */;
+			buildPhases = (
+				CA385397F6F2F3462782DC47 /* [CP] Check Pods Manifest.lock */,
+				274DCA6226B0207A00537D7B /* Sources */,
+				274DCA6326B0207A00537D7B /* Frameworks */,
+				274DCA6426B0207A00537D7B /* Resources */,
+				DEC45F8D3878C7276BB4CE8C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kmv-telekom";
+			productName = "kmv-telekom";
+			productReference = 274DCA6626B0207A00537D7B /* kmv-telekom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		274DCA7626B0207B00537D7B /* kmv-telekomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274DCA8E26B0207B00537D7B /* Build configuration list for PBXNativeTarget "kmv-telekomTests" */;
+			buildPhases = (
+				E75FB29A3BB59C5ED6C73F09 /* [CP] Check Pods Manifest.lock */,
+				274DCA7326B0207B00537D7B /* Sources */,
+				274DCA7426B0207B00537D7B /* Frameworks */,
+				274DCA7526B0207B00537D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274DCA7926B0207B00537D7B /* PBXTargetDependency */,
+			);
+			name = "kmv-telekomTests";
+			productName = "kmv-telekomTests";
+			productReference = 274DCA7726B0207B00537D7B /* kmv-telekomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		274DCA8126B0207B00537D7B /* kmv-telekomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274DCA9126B0207B00537D7B /* Build configuration list for PBXNativeTarget "kmv-telekomUITests" */;
+			buildPhases = (
+				E0144EF9DA3F3B49031DC064 /* [CP] Check Pods Manifest.lock */,
+				274DCA7E26B0207B00537D7B /* Sources */,
+				274DCA7F26B0207B00537D7B /* Frameworks */,
+				274DCA8026B0207B00537D7B /* Resources */,
+				041078A5788E6B6B9DDA3D35 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274DCA8426B0207B00537D7B /* PBXTargetDependency */,
+			);
+			name = "kmv-telekomUITests";
+			productName = "kmv-telekomUITests";
+			productReference = 274DCA8226B0207B00537D7B /* kmv-telekomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		274DCA5E26B0207900537D7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					274DCA6526B0207A00537D7B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					274DCA7626B0207B00537D7B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 274DCA6526B0207A00537D7B;
+					};
+					274DCA8126B0207B00537D7B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 274DCA6526B0207A00537D7B;
+					};
+				};
+			};
+			buildConfigurationList = 274DCA6126B0207900537D7B /* Build configuration list for PBXProject "kmv-telekom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 274DCA5D26B0207900537D7B;
+			productRefGroup = 274DCA6726B0207A00537D7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				274DCA6526B0207A00537D7B /* kmv-telekom */,
+				274DCA7626B0207B00537D7B /* kmv-telekomTests */,
+				274DCA8126B0207B00537D7B /* kmv-telekomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		274DCA6426B0207A00537D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274DCA7126B0207B00537D7B /* Preview Assets.xcassets in Resources */,
+				274DCA6E26B0207B00537D7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274DCA7526B0207B00537D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274DCA8026B0207B00537D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		041078A5788E6B6B9DDA3D35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kmv-telekom-kmv-telekomUITests/Pods-kmv-telekom-kmv-telekomUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kmv-telekom-kmv-telekomUITests/Pods-kmv-telekom-kmv-telekomUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kmv-telekom-kmv-telekomUITests/Pods-kmv-telekom-kmv-telekomUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA385397F6F2F3462782DC47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kmv-telekom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC45F8D3878C7276BB4CE8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kmv-telekom/Pods-kmv-telekom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kmv-telekom/Pods-kmv-telekom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kmv-telekom/Pods-kmv-telekom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0144EF9DA3F3B49031DC064 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kmv-telekom-kmv-telekomUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E75FB29A3BB59C5ED6C73F09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kmv-telekomTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		274DCA6226B0207A00537D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03024F71271105F500B80E08 /* MessageView.swift in Sources */,
+				03C62B9F2735703D00DD96FA /* Support.swift in Sources */,
+				03024F6F271105F100B80E08 /* ContentMessageView.swift in Sources */,
+				8474044726EB3C7B0082D826 /* Phone.swift in Sources */,
+				274DCA6C26B0207A00537D7B /* ContentView.swift in Sources */,
+				03024F6D271105E200B80E08 /* ChatView.swift in Sources */,
+				03024F812711087500B80E08 /* kmv_telekomApp.swift in Sources */,
+				03024F792711065A00B80E08 /* KeyboardResponder.swift in Sources */,
+				03024F752711063800B80E08 /* User.swift in Sources */,
+				03024F7B2711065D00B80E08 /* ChatHelper.swift in Sources */,
+				03C62BA12735791200DD96FA /* application.swift in Sources */,
+				27D642CD26B40BBB0041B66A /* loginPage.swift in Sources */,
+				848B3C2426ECCB0400190168 /* ProgressBar.swift in Sources */,
+				03C62BA3273581CF00DD96FA /* Requests.swift in Sources */,
+				03024F772711064B00B80E08 /* ViewExtension.swift in Sources */,
+				03008FFA2735400700C7925C /* Payment.swift in Sources */,
+				84BEA68826E9CF5400564842 /* Cards.swift in Sources */,
+				03024F732711063300B80E08 /* Message.swift in Sources */,
+				8474044526EB246F0082D826 /* services.swift in Sources */,
+				84BEA68526E9B7B500564842 /* Buttons.swift in Sources */,
+				274DCA9526B0237B00537D7B /* first.swift in Sources */,
+				03008FFC2735423800C7925C /* Settings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274DCA7326B0207B00537D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274DCA7C26B0207B00537D7B /* kmv_telekomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274DCA7E26B0207B00537D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274DCA8726B0207B00537D7B /* kmv_telekomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		274DCA7926B0207B00537D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274DCA6526B0207A00537D7B /* kmv-telekom */;
+			targetProxy = 274DCA7826B0207B00537D7B /* PBXContainerItemProxy */;
+		};
+		274DCA8426B0207B00537D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274DCA6526B0207A00537D7B /* kmv-telekom */;
+			targetProxy = 274DCA8326B0207B00537D7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		274DCA8926B0207B00537D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		274DCA8A26B0207B00537D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		274DCA8C26B0207B00537D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E587A6A6CBF3CAC5FB4BFEED /* Pods-kmv-telekom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"kmv-telekom/Preview Content\"";
+				DEVELOPMENT_TEAM = 8DVFS5QU7T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "kmv-telekom/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "niteus.kmv-telekom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		274DCA8D26B0207B00537D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0857BC6FF6B1DF4F32DD9CF2 /* Pods-kmv-telekom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"kmv-telekom/Preview Content\"";
+				DEVELOPMENT_TEAM = 8DVFS5QU7T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "kmv-telekom/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "niteus.kmv-telekom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		274DCA8F26B0207B00537D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D651B74C72ADF24D78E10E60 /* Pods-kmv-telekomTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DVFS5QU7T;
+				INFOPLIST_FILE = "kmv-telekomTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "niteus.kmv-telekomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kmv-telekom.app/kmv-telekom";
+			};
+			name = Debug;
+		};
+		274DCA9026B0207B00537D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17A92626F848EB88E5DCEE4 /* Pods-kmv-telekomTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DVFS5QU7T;
+				INFOPLIST_FILE = "kmv-telekomTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "niteus.kmv-telekomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kmv-telekom.app/kmv-telekom";
+			};
+			name = Release;
+		};
+		274DCA9226B0207B00537D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3F4F09A35F4BDA631CD442 /* Pods-kmv-telekom-kmv-telekomUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DVFS5QU7T;
+				INFOPLIST_FILE = "kmv-telekomUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "niteus.kmv-telekomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kmv-telekom";
+			};
+			name = Debug;
+		};
+		274DCA9326B0207B00537D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8928740E71E54DE6EFC9829 /* Pods-kmv-telekom-kmv-telekomUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DVFS5QU7T;
+				INFOPLIST_FILE = "kmv-telekomUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "niteus.kmv-telekomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kmv-telekom";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		274DCA6126B0207900537D7B /* Build configuration list for PBXProject "kmv-telekom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274DCA8926B0207B00537D7B /* Debug */,
+				274DCA8A26B0207B00537D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274DCA8B26B0207B00537D7B /* Build configuration list for PBXNativeTarget "kmv-telekom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274DCA8C26B0207B00537D7B /* Debug */,
+				274DCA8D26B0207B00537D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274DCA8E26B0207B00537D7B /* Build configuration list for PBXNativeTarget "kmv-telekomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274DCA8F26B0207B00537D7B /* Debug */,
+				274DCA9026B0207B00537D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274DCA9126B0207B00537D7B /* Build configuration list for PBXNativeTarget "kmv-telekomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274DCA9226B0207B00537D7B /* Debug */,
+				274DCA9326B0207B00537D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 274DCA5E26B0207900537D7B /* Project object */;
+}
